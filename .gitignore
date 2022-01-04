@@ -1,0 +1,8 @@
+/.vscode
+*.code-workspace
+*.log
+*.tmp
+*.sublime-project
+*.sublime-workspace
+*.swp
+gstat_sample_output.txt
