@@ -174,8 +174,8 @@ def print_tables_info(tables: list):
 
 def print_indices_info(indices: list):
     # determining column widths and line width
-    label1 = "INDEX NAME"
-    label2 = "TABLE NAME"
+    label1 = "TABLE NAME"
+    label2 = "INDEX NAME"
     label3 = "SIZE [B]"
     label4 = "SIZE [MB]"
     label5 = "DEPTH"
