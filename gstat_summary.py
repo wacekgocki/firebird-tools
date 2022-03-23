@@ -269,9 +269,10 @@ Usage:
 
 
 if __name__ == "__main__":
-    if sys.argv[1] in ["--help", "-h", "-?"]:
-        print_info()
-        exit()
+    if len(sys.argv) > 1:
+        if sys.argv[1] in ["--help", "-h", "-?"]:
+            print_info()
+            exit()
     (tables, indices) = parse_gstat_output()
     print_tables_info(tables)
     print_indices_info(indices)
